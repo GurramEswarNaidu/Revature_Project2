@@ -13,6 +13,8 @@ https://www.kaggle.com/himanshupoddar/zomato-bangalore-restaurants
 As this dataset set is hugh and it has a lot of messy data, we performed preprocess of data and removed few records, replaced null values 
 with appropriate values and we also add few columns like discount, capacity, acceptable payment mode, catering etc to the existing data.
 
+The preprocessing code is given in the preprocessing file.
+
 The structure of the data is as follows :
  |-- url: string (nullable = true)
  |-- address: string (nullable = true)
