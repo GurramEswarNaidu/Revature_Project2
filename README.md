@@ -1,5 +1,7 @@
 # Revature_Project2
 
+# Description :
+
 The basic idea of analyzing the Zomato dataset is to get a fair idea about the factors affecting the establishment
 of different types of restaurant at different places in Bengaluru.Bengaluru being an IT capital of India.
 Most of the people here are dependent mainly on the restaurant food as they don't have time to cook for themselves.
@@ -15,7 +17,7 @@ with appropriate values and we also add few columns like discount, capacity, acc
 
 The preprocessing code is given in the preprocessing file.
 
-The structure of the data is as follows :
+# The structure of the data is as follows :
  |-- url: string (nullable = true)
  |-- address: string (nullable = true)
  |-- name: string (nullable = true)
@@ -38,7 +40,7 @@ The structure of the data is as follows :
  |-- Catering: string (nullable = true)
 
 
-Contributions :
+# Contributions :
 
 1. Eswar - Data Analytics
 2. Suleman - Data Collection and Preprocessing
