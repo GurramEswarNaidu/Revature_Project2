@@ -47,3 +47,7 @@ The preprocessing code is given in the preprocessing file.
 3. Neha - Quality Assurance
 
 The query processed on this data are detaily explained in the document please go through it.
+
+# Environment / Technologies
+
+HDFS, Hive, Hadoop, SparkSQL, PySpark
