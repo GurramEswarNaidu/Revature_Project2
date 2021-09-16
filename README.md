@@ -39,6 +39,18 @@ The preprocessing code is given in the preprocessing file.
  |-- Capacity: integer (nullable = true)
  |-- Catering: string (nullable = true)
 
+# Roles / Responsibilities
+
+1. Collabortaed in a team of three members
+2. Downloaded the Zomato restaurant dataset from Kaggle.
+3. Preprocessed the dataset and add few columns to the existing dataset.
+4. Loaded the sample data into HDFS
+5. Loaded datasets located in HDFS into Spark.
+6. Worked with DataFrames and SparkSQL functions to manipulate and query the loaded the restaurant data.
+7. Worked the same queries in Pyspark too.
+8. Performed performance tunning i.e., partitioning and bucketing.
+9. Extracted various usecases from the tables.
+10. Organized results into a powerpoint presentation.
 
 # Contributions :
 
