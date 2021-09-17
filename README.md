@@ -62,4 +62,4 @@ The query processed on this data are detaily explained in the document please go
 
 # Environment / Technologies
 
-HDFS, Hive, Hadoop, SparkSQL, PySpark
+HDFS, Hive, Hadoop, SparkSQL, PySpark, Jupyter Notebook
