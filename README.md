@@ -1,4 +1,6 @@
-# Revature_Project2
+# Spark Project
+
+# Restaurant Management Analysis
 
 # Description :
 
@@ -17,49 +19,64 @@ with appropriate values and we also add few columns like discount, capacity, acc
 
 The preprocessing code is given in the preprocessing file.
 
+# Environment / Technologies
+
+1. HDFS <br>
+2. Hive <br>
+3. Hadoop <br> 
+4. SparkSQL <br>
+5. PySpark <br>
+6. Jupyter Notebook <br>
+
+# Features :
+1. Availability of 20 columns which gives the entire details of the restaurants
+2. Maintaing the list of reviews
+3. Availability of Rating and Voting of the restaurants
+4. The average cost for two people are also maintained
+5. Availability of extra features like acceptable payment mode, Discounts, Catering and Capacity of the restaurants
+6. Availability of online order and table booking facilities
+
 # The structure of the data is as follows :
- |-- url: string (nullable = true)
- |-- address: string (nullable = true)
- |-- name: string (nullable = true)
- |-- online_order: string (nullable = true)
- |-- book_table: string (nullable = true)
- |-- rate: double (nullable = true)
- |-- votes: integer (nullable = true)
- |-- phone: string (nullable = true)
- |-- location: string (nullable = true)
- |-- rest_type: string (nullable = true)
- |-- cuisines: string (nullable = true)
- |-- approx_cost_for_two_people: integer (nullable = true)
- |-- reviews_list: string (nullable = true)
- |-- menu_item: string (nullable = true)
- |-- listed_in_type: string (nullable = true)
- |-- listed_in_city: string (nullable = true)
- |-- payMode: string (nullable = true)
- |-- Discount: integer (nullable = true)
- |-- Capacity: integer (nullable = true)
- |-- Catering: string (nullable = true)
+ |-- url: string (nullable = true) <br>
+ |-- address: string (nullable = true) <br>
+ |-- name: string (nullable = true) <br>
+ |-- online_order: string (nullable = true) <br>
+ |-- book_table: string (nullable = true) <br>
+ |-- rate: double (nullable = true) <br>
+ |-- votes: integer (nullable = true) <br>
+ |-- phone: string (nullable = true) <br>
+ |-- location: string (nullable = true) <br>
+ |-- rest_type: string (nullable = true) <br>
+ |-- cuisines: string (nullable = true) <br>
+ |-- approx_cost_for_two_people: integer (nullable = true) <br>
+ |-- reviews_list: string (nullable = true) <br>
+ |-- menu_item: string (nullable = true) <br>
+ |-- listed_in_type: string (nullable = true) <br>
+ |-- listed_in_city: string (nullable = true) <br>
+ |-- payMode: string (nullable = true) <br>
+ |-- Discount: integer (nullable = true) <br>
+ |-- Capacity: integer (nullable = true) <br>
+ |-- Catering: string (nullable = true) <br>
 
 # Roles / Responsibilities
 
-1. Collabortaed in a team of three members
-2. Downloaded the Zomato restaurant dataset from Kaggle.
-3. Preprocessed the dataset and add few columns to the existing dataset.
-4. Loaded the sample data into HDFS
-5. Loaded datasets located in HDFS into Spark.
-6. Worked with DataFrames and SparkSQL functions to manipulate and query the loaded the restaurant data.
-7. Worked the same queries in Pyspark too.
-8. Performed performance tunning i.e., partitioning and bucketing.
-9. Extracted various usecases from the tables.
-10. Organized results into a powerpoint presentation.
+1. Collabortaed in a team of three members <br>
+2. Downloaded the Zomato restaurant dataset from Kaggle. <br>
+3. Preprocessed the dataset and add few columns to the existing dataset. <br>
+4. Loaded the sample data into HDFS <br>
+5. Loaded datasets located in HDFS into Spark. <br>
+6. Worked with DataFrames and SparkSQL functions to manipulate and query the loaded the restaurant data. <br>
+7. Worked the same queries in Pyspark too. <br>
+8. Performed performance tunning i.e., partitioning and bucketing. <br>
+9. Extracted various usecases from the tables. <br>
+10. Organized results into a powerpoint presentation. <br>
 
 # Contributions :
 
-1. Eswar - Data Analytics
-2. Suleman - Data Collection and Preprocessing
-3. Neha - Quality Assurance
-
+1. Eswar - Data Analytics <br>
+2. Suleman - Data Collection and Preprocessing <br>
+3. Neha - Quality Assurance <br>
+3. Subodh - Cluster Manager <br>
+4. 
 The query processed on this data are detaily explained in the document please go through it.
 
-# Environment / Technologies
-
-HDFS, Hive, Hadoop, SparkSQL, PySpark, Jupyter Notebook
