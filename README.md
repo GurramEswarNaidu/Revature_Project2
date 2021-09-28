@@ -34,7 +34,7 @@ Firstly, we have downloaded the Zomato dataset from Kaggle website by using the 
 This dataset is very large and consisting of noisy data. So we perform preprocessing of data and the entire code for preprocessing the data is given in the jupyter file.
 We also add few columns like discount, capacity, acceptable payment mode, catering etc to the existing data.
 
-The structure of the data is as follows :
+The structure of the data is as follows : <br>
  |-- url: string (nullable = true) <br>
  |-- address: string (nullable = true) <br>
  |-- name: string (nullable = true) <br>
