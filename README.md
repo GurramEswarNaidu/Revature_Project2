@@ -10,14 +10,6 @@ Most of the people here are dependent mainly on the restaurant food as they don'
 With such an overwhelming demand of restaurants it has therefore become important to study the demography of a location. 
 What kind of a food is more popular in a locality.
 
-Firstly we have downloaded the zomato restaurant dataset from Kaggle.
-You can download the dataset with the following link
-https://www.kaggle.com/himanshupoddar/zomato-bangalore-restaurants
-
-As this dataset set is hugh and it has a lot of messy data, we performed preprocess of data and removed few records, replaced null values 
-with appropriate values and we also add few columns like discount, capacity, acceptable payment mode, catering etc to the existing data.
-
-The preprocessing code is given in the preprocessing file.
 
 # Environment / Technologies
 
