@@ -33,10 +33,16 @@ The preprocessing code is given in the preprocessing file.
 2. Maintaing the list of reviews
 3. Availability of Rating and Voting of the restaurants
 4. The average cost for two people are also maintained
-5. Availability of extra features like acceptable payment mode, Discounts, Catering and Capacity of the restaurants
+5. Availability of extra features like acceptable payment mode, Discounts, Catering and Capacity of the restaurants 
 6. Availability of online order and table booking facilities
 
-# The structure of the data is as follows :
+# Getting Started :
+
+Firstly, we have downloaded the Zomato dataset from Kaggle website by using the following link https://www.kaggle.com/himanshupoddar/zomato-bangalore-restaurants
+This dataset is very large and consisting of noisy data. So we perform preprocessing of data and the entire code for preprocessing the data is given in the jupyter file.
+We also add few columns like discount, capacity, acceptable payment mode, catering etc to the existing data.
+
+The structure of the data is as follows :
  |-- url: string (nullable = true) <br>
  |-- address: string (nullable = true) <br>
  |-- name: string (nullable = true) <br>
@@ -58,6 +64,11 @@ The preprocessing code is given in the preprocessing file.
  |-- Capacity: integer (nullable = true) <br>
  |-- Catering: string (nullable = true) <br>
 
+On this structured data we performed analysis and extracted usecases from user perspective. 
+The usecases and their corresponding queries are clearly mentioned in the document file.
+We performed the analysis in both PySpark and SparkSQL.
+We performed partioning and bucketing too.
+
 # Roles / Responsibilities
 
 1. Collabortaed in a team of three members <br>
@@ -76,7 +87,5 @@ The preprocessing code is given in the preprocessing file.
 1. Eswar - Data Analytics <br>
 2. Suleman - Data Collection and Preprocessing <br>
 3. Neha - Quality Assurance <br>
-3. Subodh - Cluster Manager <br>
-4. 
-The query processed on this data are detaily explained in the document please go through it.
+4. Subodh - Cluster Manager <br>
 
