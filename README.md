@@ -74,7 +74,7 @@ We performed partioning and bucketing too.
 9. Extracted various usecases from the tables. <br>
 10. Organized results into a powerpoint presentation. <br>
 
-# Contributions :
+# Team Members :
 
 1. Eswar - Data Analytics <br>
 2. Suleman - Data Collection and Preprocessing <br>
