@@ -61,18 +61,17 @@ The usecases and their corresponding queries are clearly mentioned in the docume
 We performed the analysis in both PySpark and SparkSQL.
 We performed partioning and bucketing too.
 
-# Roles / Responsibilities
+# Roles / Responsibilities <br>
 
-1. Collabortaed in a team of three members <br>
-2. Downloaded the Zomato restaurant dataset from Kaggle. <br>
-3. Preprocessed the dataset and add few columns to the existing dataset. <br>
-4. Loaded the sample data into HDFS <br>
-5. Loaded datasets located in HDFS into Spark. <br>
-6. Worked with DataFrames and SparkSQL functions to manipulate and query the loaded the restaurant data. <br>
-7. Worked the same queries in Pyspark too. <br>
-8. Performed performance tunning i.e., partitioning and bucketing. <br>
-9. Extracted various usecases from the tables. <br>
-10. Organized results into a powerpoint presentation. <br>
+1.After a lot of research, we utilized the Zomato restaurant dataset from the Kaggle website which is more suitable for the project. <br>
+2.Preprocessed the dataset as it consists of a lot of messy data and added few columns to the existing dataset using Python pandas. <br>
+3.Loaded the sample data into Hadoop HDFS, then created a table in the Hive warehouse. <br>
+4.Configured the hive metastore in Spark in order to access the hive tables from Spark. <br>
+5.Worked with Data Frames and SparkSQL functions to manipulate and query the restaurant data. <br>
+6.Performed the same queries which are done through SparkSQL in Pyspark too using Python. <br>
+7.Performed performance tunning i.e., partitioning and bucketing for better performance. <br>
+8.Extracted various use cases from the tables from the user's perspective. <br>
+9.Organized results into a PowerPoint presentation and uploaded the entire project into GitHub. <br>
 
 # Team Members :
 
